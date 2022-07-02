@@ -1,5 +1,5 @@
 import { createSignal, createEffect } from 'solid-js'
-import { supabase } from './supabaseClient'
+import { supabase } from '~/supabaseClient'
 
 const Account = (props) => {
   const [loading, setLoading] = createSignal(true)

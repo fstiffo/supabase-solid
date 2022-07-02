@@ -1,6 +1,6 @@
 import Counter from "~/components/Counter";
 import { createSignal, createEffect } from 'solid-js';
-import { supabase } from './supabaseClient';
+import { supabase } from '~/supabaseClient';
 import Auth from "~/components/Auth";
 import Account from "~/components/Account"
 import "./index.css";
